@@ -1,0 +1,23 @@
+public class Main {
+    public static void main(String[] args) {
+        var resultado = 0;
+        resultado = sumar(1,3,5);
+        System.out.println(resultado);
+
+        Coche auto = new Coche();
+        auto.sumarPuerta();
+        System.out.println(auto.puertas);
+    }
+    public static int sumar(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    public static class Coche{
+        public int puertas = 4;
+
+        public void sumarPuerta(){
+            this.puertas ++;
+        }
+    }
+
+}

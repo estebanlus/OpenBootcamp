@@ -1,0 +1,50 @@
+public class Bucles {
+
+    public static void main(String[] args) {
+        int numeroIf = 0;
+
+        if (numeroIf == 0){
+            System.out.println("numeroIf es 0");
+        } else if (numeroIf > 0) {
+            System.out.println("numeroIf es positivo");
+        } else {System.out.println("numeroIf es negativo");}
+
+
+        int numeroWhile = 0;
+        String estacion = "verano";
+
+        System.out.println("Ejecución del While");
+        while (numeroWhile < 3) {
+            System.out.println(numeroWhile);
+            numeroWhile ++;
+
+        }
+        System.out.println("Ejecución del Do While");
+        do {
+            System.out.println(numeroWhile);
+            numeroWhile ++;
+        } while(numeroWhile < 3);
+
+        System.out.println("Ejecución del for");
+        for(int numeroFor = 0; numeroFor <= 3; numeroFor++){
+            System.out.println(numeroFor);
+        }
+
+        switch (estacion){
+            case "verano":
+                System.out.println("Es Verano");
+                break;
+            case "invierno":
+                System.out.println("Es Invierno");
+                break;
+            case "primavera":
+                System.out.println("Es Primavera");
+                break;
+            case "otoño":
+                System.out.println("Es Otoño");
+                break;
+            default:
+                System.out.println("No es una estación");
+        }
+    }
+}

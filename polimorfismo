@@ -9,6 +9,7 @@ public class Polimorfismo {
         cliente.setTelefono("+541145236984");
         cliente.setCredito(5000);
 
+        //Imprimir Cliente
         System.out.println(cliente.getNombre());
         System.out.println(cliente.getEdad());
         System.out.println(cliente.getTelefono());

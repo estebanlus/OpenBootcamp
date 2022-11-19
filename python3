@@ -1,0 +1,8 @@
+##Indice de masa corporal
+
+peso = int(input('Ingrese el peso en kg: '))
+altura = float(input('Ingrese la altura en metros: '))
+
+imc = peso / (altura**2)
+
+print("Su indice de masa corporal es: {valor:.2f}".format(valor = imc))

@@ -1,0 +1,17 @@
+#Clases y Objetos en python
+
+class Vehiculo:
+    color = "Verde"
+    ruedas = 4
+    puertas = 2
+
+class Coche(Vehiculo):
+    velocidad = 240
+    cilindrada = 1600
+
+c = Coche()
+print("Color:" ,c.color)
+print("Ruedas:" ,c.ruedas)
+print("Puertas:" ,c.puertas)
+print("Velocidad:" ,c.velocidad, "km/h")
+print("Cilindrada:" ,c.cilindrada, "cc")
